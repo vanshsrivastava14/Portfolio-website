@@ -1,0 +1,176 @@
+/* BASIC THEME */
+*{
+    margin:0; padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111217;
+    color:#e8e8e8;
+    display:flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:220px;
+    background:#0c0d11;
+    height:100vh;
+    padding:30px 20px;
+    position:fixed;
+    border-right:1px solid #1f2025;
+}
+
+.logo{
+    color:#dac26d;
+    font-size:28px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.sidebar nav a{
+    color:#b8b8b8;
+    text-decoration:none;
+    font-weight:600;
+    transition:.2s;
+}
+
+.sidebar nav a:hover{
+    color:#dac26d;
+}
+
+/* MAIN CONTENT */
+.content{
+    margin-left:240px;
+    padding:40px 30px;
+    width:100%;
+}
+
+/* CARD */
+.card{
+    background:#18191f;
+    padding:25px;
+    border-radius:10px;
+    margin-bottom:40px;
+    border:1px solid #1f2025;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+}
+
+.hero img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    margin-bottom:15px;
+    border:3px solid #dac26d;
+}
+
+.hero h1{
+    font-size:28px;
+    margin-bottom:5px;
+}
+
+.tag{
+    color:#c3c3c3;
+    margin-bottom:10px;
+}
+
+.desc{
+    color:#bebebe;
+    line-height:1.5;
+}
+
+/* SKILLS */
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skills span{
+    background:#22232a;
+    padding:7px 12px;
+    border-radius:6px;
+    color:#dac26d;
+    font-weight:600;
+    border:1px solid #2d2e34;
+}
+
+/* PROJECTS */
+.project-list{
+    display:grid;
+    gap:20px;
+}
+
+.project{
+    background:#22232a;
+    padding:15px;
+    border-radius:8px;
+    border:1px solid #2d2e34;
+}
+
+.project h3{
+    color:#dac26d;
+    margin-bottom:8px;
+}
+
+/* CONTACT */
+form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+input,textarea{
+    background:#22232a;
+    border:1px solid #2d2e34;
+    padding:12px;
+    border-radius:6px;
+    color:#fff;
+}
+
+button{
+    background:#dac26d;
+    border:none;
+    padding:12px;
+    color:#1a1a1a;
+    font-weight:700;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* SOCIAL LINKS */
+.socials{
+    margin-bottom:12px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.socials a{
+    color:#dac26d;
+    text-decoration:none;
+    font-weight:600;
+    font-size:16px;
+    transition:0.2s;
+}
+
+.socials a:hover{
+    color:#fff;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    color:#7a7a7a;
+    margin-top:20px;
+}
