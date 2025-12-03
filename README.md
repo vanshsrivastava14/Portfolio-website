@@ -1,7 +1,7 @@
 
 # 🌑 Simple Portfolio – Vansh Srivastava
 
-A clean and minimal **HTML + CSS only** portfolio website created by me (Vansh Srivastava).  
+A clean and minimal **HTML + CSS only** portfolio website created by me. 
 Designed to be simple, and professional.
 
 ---
